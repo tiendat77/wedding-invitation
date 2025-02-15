@@ -1,3 +1,4 @@
 {
-  "cSpell.words": ["reduxjs", "swiper"]
+  "cSpell.words": ["reduxjs", "swiper"],
+  "tailwindCSS.experimental.configFile": "src/styles/_tailwind.scss"
 }
