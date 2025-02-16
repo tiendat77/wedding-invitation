@@ -6,14 +6,14 @@ import Countdown from './Countdown';
 
 const CountDown: FC = () => {
   return (
-    <section className="container mx-auto grid min-h-screen gap-4 px-4 lg:grid-cols-2 lg:gap-10 lg:px-10">
+    <section className="@container mx-auto grid min-h-screen gap-28 px-4 pt-16 pb-40 lg:grid-cols-2 lg:gap-10 lg:px-10">
       <div className="flex flex-col items-center justify-center">
         <div className="mb-8 flex items-center justify-center">
           <Image
             className=""
             width="200"
             height="200"
-            src="images/shape1.9b6bc32e.svg"
+            src="/images/shape1.9b6bc32e.svg"
             alt=""
           />
         </div>
@@ -71,7 +71,7 @@ const CountDown: FC = () => {
             />
           </div>
 
-          <div className="absolute bottom-[-6rem] left-4 z-1 w-40">
+          <div className="absolute bottom-[-10rem] left-4 z-1 w-40 lg:bottom-[-6rem]">
             <Image
               width="162"
               height="154"
@@ -82,10 +82,10 @@ const CountDown: FC = () => {
 
           <div className="z-0 rounded bg-white p-3">
             <Image
-              className="h-auto w-full md:min-w-96"
+              className="h-auto w-full min-w-[70vw] md:min-w-96"
               width="420"
               height="660"
-              src="/images/hero-1ad4a1844.jpg"
+              src="/mockup/hero-1ad4a1844.jpg"
               alt=""
             />
           </div>

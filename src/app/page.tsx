@@ -2,6 +2,8 @@ import React from 'react';
 import { Metadata } from 'next';
 
 import SectionCountDown from '@/components/SectionCountDown';
+import SectionWhoWeAre from '@/components/SectionWhoWeAre';
+import SectionOurStory from '@/components/SectionOurStory';
 
 /**
  * Metadata
@@ -17,6 +19,8 @@ export default function Page() {
   return (
     <>
       <SectionCountDown />
+      <SectionWhoWeAre />
+      <SectionOurStory />
     </>
   );
 }
