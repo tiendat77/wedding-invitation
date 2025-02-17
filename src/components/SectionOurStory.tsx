@@ -3,20 +3,16 @@ import Image from 'next/image';
 
 const SectionOurStory: FC = () => {
   return (
-    <section className="relative px-4 py-24 lg:px-10 lg:py-20">
-      <div className="@container mx-auto">
+    <section className="relative py-24 lg:py-20">
+      <div className="@container mx-auto px-4 lg:px-10">
         <div className="mb-20 flex flex-col items-center">
-          <div className="mb-8 text-center text-3xl font-semibold">
-            <h3>Our Story</h3>
-          </div>
-
           <div className="space-y-2 text-center text-5xl font-semibold lg:text-6xl">
-            <h2>How it all started</h2>
+            <h2>Câu chuyện của chúng mình</h2>
           </div>
         </div>
       </div>
 
-      <div className="relative py-10">
+      <div className="relative px-4 py-10 lg:px-10">
         <div className="absolute top-0 left-[-4rem] -z-0 hidden h-full lg:block">
           <Image
             className="h-full w-auto"
@@ -31,7 +27,7 @@ const SectionOurStory: FC = () => {
           <div className="grid gap-4 lg:grid-cols-2 lg:gap-20">
             <div className="flex flex-col items-center overflow-visible">
               <div className="relative">
-                <div className="absolute top-0 z-[-1] h-auto w-full lg:left-[-10%] lg:w-[130%]">
+                <div className="absolute top-[-15%] z-[-1] h-auto w-full lg:left-[-10%] lg:w-[130%]">
                   <Image
                     className="h-auto w-full"
                     width="420"
@@ -77,8 +73,8 @@ const SectionOurStory: FC = () => {
         </div>
       </div>
 
-      <div className="relative py-10">
-        <div className="absolute top-0 right-[-5%] -z-0 hidden h-full lg:block">
+      <div className="relative px-4 py-10 lg:px-10">
+        <div className="absolute top-0 right-0 -z-0 hidden h-full lg:block">
           <Image
             className="h-full w-auto"
             width="467"
@@ -93,7 +89,7 @@ const SectionOurStory: FC = () => {
             <div className="order-2 flex flex-col justify-center lg:order-1 lg:text-right">
               <div className="mb-4">
                 <span className="text-primary font-bold lg:text-xl">
-                  Tháng 9, 2012
+                  Tháng 10, 2013
                 </span>
               </div>
 
@@ -113,7 +109,7 @@ const SectionOurStory: FC = () => {
 
             <div className="order-1 flex flex-col items-center overflow-visible lg:order-2">
               <div className="relative">
-                <div className="absolute top-0 z-[-1] h-auto w-full lg:left-[-10%] lg:w-[120%]">
+                <div className="absolute top-[-15%] z-[-1] h-auto w-full lg:left-[-10%] lg:w-[120%]">
                   <Image
                     className="h-auto w-full"
                     width="420"
@@ -138,7 +134,7 @@ const SectionOurStory: FC = () => {
         </div>
       </div>
 
-      <div className="relative py-10">
+      <div className="relative px-4 py-10 lg:px-10">
         <div className="absolute top-0 left-[-5%] -z-0 hidden h-full lg:block">
           <Image
             className="h-full w-auto"
@@ -178,7 +174,7 @@ const SectionOurStory: FC = () => {
             <div className="flex flex-col justify-center">
               <div className="mb-4">
                 <span className="text-primary font-bold lg:text-xl">
-                  Tháng 9, 2012
+                  Tháng 1, 2025
                 </span>
               </div>
 

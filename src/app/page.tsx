@@ -4,6 +4,9 @@ import { Metadata } from 'next';
 import SectionCountDown from '@/components/SectionCountDown';
 import SectionWhoWeAre from '@/components/SectionWhoWeAre';
 import SectionOurStory from '@/components/SectionOurStory';
+import SectionInvitation from '@/components/SectionInvitation';
+import SectionContacts from '@/components/SectionContacts';
+import SectionWeddingMonetaryGift from '@/components/SectionWeddingMonetaryGift';
 
 /**
  * Metadata
@@ -21,6 +24,9 @@ export default function Page() {
       <SectionCountDown />
       <SectionWhoWeAre />
       <SectionOurStory />
+      <SectionInvitation />
+      <SectionContacts />
+      <SectionWeddingMonetaryGift />
     </>
   );
 }
