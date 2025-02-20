@@ -1,4 +1,4 @@
-import { Love_Light, Nunito } from 'next/font/google';
+import { Love_Light, Nunito, Dancing_Script } from 'next/font/google';
 
 export const nunito = Nunito({
   subsets: ['vietnamese'],
@@ -10,4 +10,10 @@ export const loveLight = Love_Light({
   subsets: ['vietnamese'],
   display: 'swap',
   weight: ['400'],
+});
+
+export const dancingScript = Dancing_Script({
+  subsets: ['vietnamese'],
+  display: 'swap',
+  weight: ['400', '500', '600', '700'],
 });

@@ -36,19 +36,19 @@ const Countdown: FC<CountdownProps> = ({ target }) => {
 
   return (
     <div className="grid grid-cols-3 gap-6">
-      <div className="flex flex-col items-center justify-center gap-1">
+      <div className="flex flex-col items-center justify-center gap-3">
         <p className="text-5xl font-bold">{days}</p>
-        <p>Ngày</p>
+        <p className="text-xl">Ngày</p>
       </div>
 
-      <div className="flex flex-col items-center justify-center gap-1">
+      <div className="flex flex-col items-center justify-center gap-3">
         <p className="text-5xl font-bold">{hours}</p>
-        <p>Giờ</p>
+        <p className="text-xl">Giờ</p>
       </div>
 
-      <div className="flex flex-col items-center justify-center gap-1">
+      <div className="flex flex-col items-center justify-center gap-3">
         <p className="text-5xl font-bold">{minutes}</p>
-        <p>Phút</p>
+        <p className="text-xl">Phút</p>
       </div>
     </div>
   );
