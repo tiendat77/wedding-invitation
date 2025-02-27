@@ -5,7 +5,7 @@
 # GITHUB_PASSWORD=your_github_personal_access_token
 source ~/.credentials
 
-DOCKER_IMAGE_NAME="ghcr.io/${GITHUB_USERNAME}/nextjs-starter"
+DOCKER_IMAGE_NAME="ghcr.io/${GITHUB_USERNAME}/wedding-invitation"
 
 APP_VERSION=$(cat package.json \
   | grep version \
