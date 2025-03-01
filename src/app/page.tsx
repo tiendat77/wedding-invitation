@@ -22,9 +22,9 @@ export default function Page() {
   return (
     <>
       <SectionCountDown />
+      <SectionInvitation />
       <SectionWhoWeAre />
       <SectionOurStory />
-      <SectionInvitation />
       <SectionContacts />
       <SectionWeddingMonetaryGift />
     </>
