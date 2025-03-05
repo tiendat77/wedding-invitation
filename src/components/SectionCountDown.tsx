@@ -53,7 +53,7 @@ const CountDown: FC = () => {
         <div className="flex flex-col items-center justify-center">
           <div className="mb-8 flex items-center justify-center">
             <Image
-              className=""
+              className="animated-floating-2"
               width="200"
               height="200"
               src="/images/shape1.9b6bc32e.svg"
@@ -67,7 +67,6 @@ const CountDown: FC = () => {
 
           <div className="mb-10 space-y-2 text-center">
             <p>Chúng mình cưới, 13 tháng 06, 2025!</p>
-            {/* <p>(Nhằm ngày 18 tháng 05 năm Ất Tỵ)</p> */}
           </div>
 
           <div
@@ -78,6 +77,7 @@ const CountDown: FC = () => {
 
           <div className="flex items-center justify-center">
             <Image
+              className="animated-floating"
               width="200"
               height="200"
               src="images/shape2.267c9137.svg"
@@ -97,9 +97,9 @@ const CountDown: FC = () => {
               />
             </div>
 
-            <div className="z-0 rounded-full bg-white p-3">
+            <div className="z-0 max-w-[70vw] overflow-hidden rounded-full border-8 border-white bg-white md:max-w-96">
               <Image
-                className="h-auto w-full max-w-[70vw] rounded-full md:max-w-96"
+                className="animated-kenburn h-auto w-full rounded-full"
                 width="420"
                 height="660"
                 src="/mockup/pexels-toan-van-13706261.jpg"

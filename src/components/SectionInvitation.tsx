@@ -5,7 +5,7 @@ import { greatVibes } from '@/config/fonts';
 
 const SectionInvitation: FC = () => {
   return (
-    <section className="relative bg-[#0c284b] py-24 text-white lg:py-20">
+    <section className="relative bg-[#0c284b] py-24 text-white lg:py-30">
       <div className="@container mx-auto grid gap-28 px-4 lg:gap-10 lg:px-10">
         <div className="absolute top-0 left-0 z-[-1] h-full w-full">
           <Image
@@ -23,7 +23,7 @@ const SectionInvitation: FC = () => {
 
           <div className="absolute -top-16 -right-24 z-0">
             <Image
-              className="w-40"
+              className="animated-floating-2 w-40"
               src="/images/shape12.78ac195.webp"
               alt="Invitation Shape"
               width="646"
@@ -33,7 +33,7 @@ const SectionInvitation: FC = () => {
 
           <div className="absolute -bottom-16 -left-16 z-0">
             <Image
-              className="w-40"
+              className="animated-floating-2 w-40"
               src="/images/shape13.098bd90.webp"
               alt="Invitation Shape"
               width="646"
@@ -54,7 +54,7 @@ const SectionInvitation: FC = () => {
           <div className="z-1 flex flex-col gap-6 p-4 lg:gap-8 lg:p-6">
             <div className="flex gap-2 lg:gap-4">
               <div className="w-1/2 flex-auto text-center text-sm font-medium lg:text-lg">
-                <div className="mb-3">Ông - Bà</div>
+                <div className="mb-3 text-sm">Nhà trai</div>
                 <div className="mb-1">Huỳnh Văn Cẩm</div>
                 <div className="mb-1">Lê Thị Phượng</div>
                 <div className="text-sm italic">
@@ -62,7 +62,7 @@ const SectionInvitation: FC = () => {
                 </div>
               </div>
               <div className="w-1/2 flex-auto text-center text-sm font-medium lg:text-lg">
-                <div className="mb-3">Ông - Bà</div>
+                <div className="mb-3 text-sm">Nhà gái</div>
                 <div className="mb-1">Lý Văn Sơn</div>
                 <div className="mb-1">Nguyễn Thị Nhiều</div>
                 <div className="text-sm italic">
