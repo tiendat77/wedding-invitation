@@ -20,7 +20,7 @@ export default function RootLayout({
       lang="en"
       data-theme="light"
     >
-      <body className={nunito.className}>{children}</body>
+      <body className={nunito.className + 'overflow-x-hidden'}>{children}</body>
     </html>
   );
 }

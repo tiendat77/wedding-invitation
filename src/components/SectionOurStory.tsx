@@ -6,9 +6,14 @@ const SectionOurStory: FC = () => {
     <section className="relative py-24 lg:py-20">
       <div className="@container mx-auto px-4 lg:px-10">
         <div className="mb-20 flex flex-col items-center">
-          <div className="space-y-2 text-center text-4xl font-semibold lg:text-6xl">
-            <h2>Câu chuyện của chúng mình</h2>
-          </div>
+          <h2 className="text-center text-4xl font-semibold lg:text-6xl">
+            Câu chuyện của chúng mình
+          </h2>
+
+          <p className="mt-6 max-w-xl text-center font-medium lg:mt-10 lg:text-lg">
+            Tình yêu không chỉ là một danh từ - nó là một động từ, nó còn hơn cả
+            một cảm giác - đó là sự quan tâm, chia sẻ, giúp đỡ, hy sinh
+          </p>
         </div>
       </div>
 
@@ -125,7 +130,7 @@ const SectionOurStory: FC = () => {
       </div>
 
       <div className="relative px-4 py-14 lg:px-10 lg:py-26">
-        <div className="absolute top-0 right-[-5%] -z-0 hidden h-full lg:block">
+        <div className="absolute top-0 right-0 -z-0 hidden h-full lg:block">
           <Image
             className="h-full w-auto"
             width="467"

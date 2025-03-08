@@ -174,7 +174,7 @@ const WhoWeAre: FC = () => {
           </div>
 
           <div className="relative order-1 flex flex-col items-center justify-center lg:order-2">
-            <div className="absolute right-[-15%] bottom-[10%] z-[-1] h-auto w-2/3">
+            <div className="absolute right-0 bottom-[10%] z-[-1] h-auto w-2/3 lg:right-[-10%]">
               <Image
                 className="h-auto w-full"
                 src="/images/shape8.089684a2.svg"
