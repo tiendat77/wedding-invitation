@@ -6,7 +6,6 @@ import SectionCountDown from '@/components/SectionCountDown';
 import SectionWhoWeAre from '@/components/SectionWhoWeAre';
 import SectionOurStory from '@/components/SectionOurStory';
 import SectionInvitation from '@/components/SectionInvitation';
-import SectionContacts from '@/components/SectionContacts';
 import SectionWeddingMonetaryGift from '@/components/SectionWeddingMonetaryGift';
 import SectionMemoryBook from '@/components/SectionMemoryBook';
 
@@ -29,7 +28,6 @@ export default function Page() {
       <SectionOurStory />
       <SectionAlbum />
       <SectionMemoryBook />
-      <SectionContacts />
       <SectionWeddingMonetaryGift />
     </>
   );

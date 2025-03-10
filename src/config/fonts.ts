@@ -3,6 +3,7 @@ import {
   Nunito,
   Dancing_Script,
   Great_Vibes,
+  Lovers_Quarrel,
 } from 'next/font/google';
 
 export const nunito = Nunito({
@@ -25,6 +26,12 @@ export const dancingScript = Dancing_Script({
 
 export const greatVibes = Great_Vibes({
   subsets: ['vietnamese'],
+  display: 'swap',
+  weight: ['400'],
+});
+
+export const loversQuarrel = Lovers_Quarrel({
+  subsets: ['latin'],
   display: 'swap',
   weight: ['400'],
 });
