@@ -6,7 +6,7 @@ import SectionCountDown from '@/components/SectionCountDown';
 import SectionWhoWeAre from '@/components/SectionWhoWeAre';
 import SectionOurStory from '@/components/SectionOurStory';
 import SectionInvitation from '@/components/SectionInvitation';
-import SectionWeddingMonetaryGift from '@/components/SectionWeddingMonetaryGift';
+import SectionWeddingEvents from '@/components/SectionWeddingEvents';
 import SectionMemoryBook from '@/components/SectionMemoryBook';
 
 /**
@@ -28,7 +28,7 @@ export default function Page() {
       <SectionOurStory />
       <SectionAlbum />
       <SectionMemoryBook />
-      <SectionWeddingMonetaryGift />
+      <SectionWeddingEvents />
     </>
   );
 }

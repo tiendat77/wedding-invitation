@@ -117,7 +117,7 @@ const MemoryBookForm: FC = () => {
       <button
         type="submit"
         disabled={isLoading}
-        className="btn btn-soft btn-secondary mt-4"
+        className="btn btn-soft btn-primary mt-4"
       >
         {isLoading ? 'Đang gửi...' : 'Gửi lời chúc'}
       </button>

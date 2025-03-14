@@ -66,13 +66,13 @@ const CountDown: FC = () => {
           </div>
 
           <div className="mb-10 space-y-2 text-center">
-            <p>Chúng mình cưới, 13 tháng 06, 2025!</p>
+            <p>Chúng mình cưới, 14 tháng 06, 2025!</p>
           </div>
 
           <div
             className={`${dancingScript.className} mb-8 text-center font-semibold`}
           >
-            <Countdown target="2025-06-13T02:00:00.000Z" />
+            <Countdown target="2025-06-14T02:00:00.000Z" />
           </div>
 
           <div className="flex items-center justify-center">
