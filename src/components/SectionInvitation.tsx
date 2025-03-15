@@ -1,4 +1,7 @@
+'use client';
+
 import { FC } from 'react';
+import { motion } from 'motion/react';
 
 import Image from 'next/image';
 import { greatVibes } from '@/config/fonts';
@@ -9,17 +12,13 @@ const SectionInvitation: FC = () => {
       className="relative overflow-x-hidden bg-repeat py-24 lg:py-30"
       style={{ backgroundImage: "url('/images/background2.7ba9d69f6a.png')" }}
     >
-      <div className="@container mx-auto grid gap-28 px-4 lg:gap-10 lg:px-10">
-        <div className="absolute top-0 left-0 z-[-1] h-full w-full">
-          <Image
-            src="/images/shape9.dc6b6b56.svg"
-            alt="Invitation Background"
-            width="467"
-            height="720"
-            className="absolute bottom-0 left-0 h-2/3 w-auto"
-          />
-        </div>
-
+      <motion.div
+        viewport={{ once: true }}
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, ease: 'easeOut' }}
+        className="@container mx-auto grid gap-28 px-4 lg:gap-10 lg:px-10"
+      >
         <div className="rounded-2xl bg-white p-4 lg:p-6">
           <div className="relative flex flex-col items-center">
             <div className="border-primary-200 absolute top-0 left-0 h-[calc(100%-0.5rem)] w-[calc(100%+0.5rem)] -translate-x-2 rounded border"></div>
@@ -110,16 +109,16 @@ const SectionInvitation: FC = () => {
 
               <div className="space-y-1 text-center">
                 <div className="">Hôn lễ được cử hành tại tư gia</div>
-                <div className="">Vào lúc 11 giờ</div>
-                <div className="">Ngày 13 tháng 06 năm 2025</div>
+                <div className="">Vào lúc 09 giờ</div>
+                <div className="">Ngày 14 tháng 06 năm 2025</div>
                 <div className="text-sm italic">
-                  (Nhằm ngày 18 tháng 05 năm Ất Tỵ)
+                  (Nhằm ngày 19 tháng 05 năm Ất Tỵ)
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };

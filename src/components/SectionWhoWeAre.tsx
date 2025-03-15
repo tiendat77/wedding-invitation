@@ -1,6 +1,10 @@
+'use client';
+
 import { FC } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { motion } from 'motion/react';
+
 import { greatVibes } from '@/config/fonts';
 
 const WhoWeAre: FC = () => {
@@ -52,11 +56,17 @@ const WhoWeAre: FC = () => {
 
       <div className="@container mx-auto grid gap-18 lg:gap-10">
         <div className="grid gap-4 lg:grid-cols-3 lg:gap-10">
-          <div className="relative flex flex-col items-center justify-center">
-            <div className="absolute bottom-[10%] left-[-35%] z-[-1] h-auto w-2/3">
+          <motion.div
+            viewport={{ once: true }}
+            initial={{ opacity: 0, scale: 0.5, x: -150 }}
+            whileInView={{ opacity: 1, scale: 1, x: 0 }}
+            transition={{ duration: 0.8, ease: 'easeOut' }}
+            className="relative flex flex-col items-center justify-center"
+          >
+            <div className="absolute top-[-15%] left-0 z-[-1] h-auto w-2/3 lg:left-[-15%] lg:w-full">
               <Image
-                className="h-auto w-full"
-                src="/images/shape7.089684a2.svg"
+                className="animated-floating-2 h-auto w-full"
+                src="/images/shape31.867a6d987b9c.webp"
                 width="602"
                 height="532"
                 alt=""
@@ -75,9 +85,15 @@ const WhoWeAre: FC = () => {
                 alt=""
               />
             </div>
-          </div>
+          </motion.div>
 
-          <div className="flex flex-col justify-center lg:col-span-2 lg:max-w-lg">
+          <motion.div
+            viewport={{ once: true }}
+            initial={{ opacity: 0, scale: 0.5, x: 150 }}
+            whileInView={{ opacity: 1, scale: 1, x: 0 }}
+            transition={{ duration: 0.8, ease: 'easeOut' }}
+            className="flex flex-col justify-center lg:col-span-2 lg:max-w-lg"
+          >
             <div className="mb-8 text-center text-5xl sm:text-6xl xl:text-7xl 2xl:text-7xl">
               <h2 className={greatVibes.className}>Thu An</h2>
             </div>
@@ -122,11 +138,17 @@ const WhoWeAre: FC = () => {
                 />
               </Link>
             </div>
-          </div>
+          </motion.div>
         </div>
 
         <div className="grid place-items-end gap-4 lg:grid-cols-3 lg:gap-10">
-          <div className="order-2 flex flex-col justify-center lg:order-1 lg:col-span-2 lg:max-w-lg">
+          <motion.div
+            viewport={{ once: true }}
+            initial={{ opacity: 0, scale: 0.5, x: -150 }}
+            whileInView={{ opacity: 1, scale: 1, x: 0 }}
+            transition={{ duration: 0.8, ease: 'easeOut' }}
+            className="order-2 flex flex-col justify-center lg:order-1 lg:col-span-2 lg:max-w-lg"
+          >
             <div className="mb-8 text-center text-5xl sm:text-6xl xl:text-7xl 2xl:text-7xl">
               <h2 className={greatVibes.className}>Tiến Đạt</h2>
             </div>
@@ -171,13 +193,19 @@ const WhoWeAre: FC = () => {
                 />
               </Link>
             </div>
-          </div>
+          </motion.div>
 
-          <div className="relative order-1 flex flex-col items-center justify-center lg:order-2">
-            <div className="absolute right-0 bottom-[10%] z-[-1] h-auto w-2/3 lg:right-[-10%]">
+          <motion.div
+            viewport={{ once: true }}
+            initial={{ opacity: 0, scale: 0.5, x: 150 }}
+            whileInView={{ opacity: 1, scale: 1, x: 0 }}
+            transition={{ duration: 0.8, ease: 'easeOut' }}
+            className="relative order-1 flex flex-col items-center justify-center lg:order-2"
+          >
+            <div className="absolute top-0 right-0 z-[-1] h-auto w-2/3 lg:right-[-20%]">
               <Image
-                className="h-auto w-full"
-                src="/images/shape8.089684a2.svg"
+                className="animated-floating-2 h-full w-auto"
+                src="/images/shape32.8954a9b6d87f.webp"
                 width="602"
                 height="532"
                 alt=""
@@ -196,7 +224,7 @@ const WhoWeAre: FC = () => {
                 alt=""
               />
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

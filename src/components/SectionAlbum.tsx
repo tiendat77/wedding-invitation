@@ -1,4 +1,8 @@
+'use client';
+
 import { FC } from 'react';
+import { motion } from 'motion/react';
+
 import Slides from './Slides';
 import { greatVibes } from '@/config/fonts';
 
@@ -31,9 +35,20 @@ const SectionAlbum: FC = () => {
         </div>
       </div>
 
-      <div className="relative overflow-x-hidden pt-14">
+      <motion.div
+        viewport={{ once: true }}
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{
+          duration: 0.8,
+          type: 'spring',
+          stiffness: 200,
+          damping: 10,
+        }}
+        className="relative overflow-x-hidden pt-14"
+      >
         <Slides images={images} />
-      </div>
+      </motion.div>
     </section>
   );
 };

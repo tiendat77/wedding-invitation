@@ -1,5 +1,9 @@
+'use client';
+
 import { FC } from 'react';
 import Image from 'next/image';
+import { motion } from 'motion/react';
+
 import { greatVibes } from '@/config/fonts';
 
 const SectionThankYou: FC = () => {
@@ -26,7 +30,13 @@ const SectionThankYou: FC = () => {
       </div>
 
       <div className="@container mx-auto flex h-full flex-col items-center justify-center px-4 lg:px-10">
-        <div className="flex flex-col items-center">
+        <motion.div
+          viewport={{ once: true }}
+          initial={{ opacity: 0, scale: 0.5, y: 50 }}
+          whileInView={{ opacity: 1, scale: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: 'easeOut' }}
+          className="flex flex-col items-center"
+        >
           <div className="relative">
             <div className="absolute top-0 -left-1/2 z-0 h-auto w-[200%]">
               <Image
@@ -54,7 +64,7 @@ const SectionThankYou: FC = () => {
           >
             Thank you!
           </h2>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

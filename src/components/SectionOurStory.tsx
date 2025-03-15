@@ -1,5 +1,9 @@
+'use client';
+
 import { FC } from 'react';
 import Image from 'next/image';
+import { motion } from 'motion/react';
+
 import { greatVibes } from '@/config/fonts';
 
 const SectionOurStory: FC = () => {
@@ -23,7 +27,13 @@ const SectionOurStory: FC = () => {
       <div className="relative px-4 py-14 lg:px-10 lg:py-26">
         <div className="@container mx-auto grid gap-28 lg:gap-10">
           <div className="grid gap-4 lg:grid-cols-2 lg:gap-20">
-            <div className="flex flex-col items-center overflow-visible">
+            <motion.div
+              viewport={{ once: true }}
+              initial={{ opacity: 0, scale: 0.5, x: -150 }}
+              whileInView={{ opacity: 1, scale: 1, x: 0 }}
+              transition={{ duration: 0.8, ease: 'easeOut' }}
+              className="flex flex-col items-center overflow-visible"
+            >
               <div className="group relative">
                 <div className="absolute top-[-35%] z-[-1] h-auto w-[80%] lg:left-[-20%] lg:w-[80%]">
                   <Image
@@ -45,9 +55,15 @@ const SectionOurStory: FC = () => {
                   />
                 </div>
               </div>
-            </div>
+            </motion.div>
 
-            <div className="flex flex-col justify-center text-center lg:text-left">
+            <motion.div
+              viewport={{ once: true }}
+              initial={{ opacity: 0, scale: 0.5, x: 150 }}
+              whileInView={{ opacity: 1, scale: 1, x: 0 }}
+              transition={{ duration: 0.8, ease: 'easeOut' }}
+              className="flex flex-col justify-center text-center lg:text-left"
+            >
               <div className="mb-4">
                 <span className="text-primary font-bold lg:text-xl">
                   Tháng 9, 2012
@@ -66,7 +82,7 @@ const SectionOurStory: FC = () => {
                   iure dignissimos dolores soluta. Est eaque illum dolores!
                 </p>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
@@ -84,7 +100,13 @@ const SectionOurStory: FC = () => {
 
         <div className="@container mx-auto grid gap-28 lg:gap-10">
           <div className="grid gap-4 lg:grid-cols-2 lg:gap-20">
-            <div className="order-2 flex flex-col justify-center text-center lg:order-1 lg:text-right">
+            <motion.div
+              viewport={{ once: true }}
+              initial={{ opacity: 0, scale: 0.5, x: -150 }}
+              whileInView={{ opacity: 1, scale: 1, x: 0 }}
+              transition={{ duration: 0.8, ease: 'easeOut' }}
+              className="order-2 flex flex-col justify-center text-center lg:order-1 lg:text-right"
+            >
               <div className="mb-4">
                 <span className="text-primary font-bold lg:text-xl">
                   Tháng 10, 2013
@@ -103,9 +125,15 @@ const SectionOurStory: FC = () => {
                   iure dignissimos dolores soluta. Est eaque illum dolores!
                 </p>
               </div>
-            </div>
+            </motion.div>
 
-            <div className="order-1 flex flex-col items-center overflow-visible lg:order-2">
+            <motion.div
+              viewport={{ once: true }}
+              initial={{ opacity: 0, scale: 0.5, x: 150 }}
+              whileInView={{ opacity: 1, scale: 1, x: 0 }}
+              transition={{ duration: 0.8, ease: 'easeOut' }}
+              className="order-1 flex flex-col items-center overflow-visible lg:order-2"
+            >
               <div className="group relative">
                 <div className="absolute top-[-35%] left-[10%] z-[-1] h-auto w-[50%] lg:left-0 lg:w-[80%]">
                   <Image
@@ -127,7 +155,7 @@ const SectionOurStory: FC = () => {
                   />
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
@@ -145,7 +173,13 @@ const SectionOurStory: FC = () => {
 
         <div className="@container mx-auto grid gap-28 lg:gap-10">
           <div className="grid gap-4 lg:grid-cols-2 lg:gap-20">
-            <div className="group flex flex-col items-center overflow-visible">
+            <motion.div
+              viewport={{ once: true }}
+              initial={{ opacity: 0, scale: 0.5, x: -150 }}
+              whileInView={{ opacity: 1, scale: 1, x: 0 }}
+              transition={{ duration: 0.8, ease: 'easeOut' }}
+              className="group flex flex-col items-center overflow-visible"
+            >
               <div className="relative">
                 <div className="absolute top-[-45%] left-[10%] z-[-1] h-auto w-[50%] lg:left-0 lg:w-[80%]">
                   <Image
@@ -167,9 +201,15 @@ const SectionOurStory: FC = () => {
                   />
                 </div>
               </div>
-            </div>
+            </motion.div>
 
-            <div className="flex flex-col justify-center text-center lg:text-left">
+            <motion.div
+              viewport={{ once: true }}
+              initial={{ opacity: 0, scale: 0.5, x: 150 }}
+              whileInView={{ opacity: 1, scale: 1, x: 0 }}
+              transition={{ duration: 0.8, ease: 'easeOut' }}
+              className="flex flex-col justify-center text-center lg:text-left"
+            >
               <div className="mb-4">
                 <span className="text-primary font-bold lg:text-xl">
                   Tháng 1, 2025
@@ -188,7 +228,7 @@ const SectionOurStory: FC = () => {
                   iure dignissimos dolores soluta. Est eaque illum dolores!
                 </p>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

@@ -1,5 +1,9 @@
+'use client';
+
 import { FC } from 'react';
 import Image from 'next/image';
+import { motion } from 'motion/react';
+
 import { greatVibes } from '@/config/fonts';
 
 const googleCalendarLinks = {
@@ -44,11 +48,27 @@ const SectionWeddingMonetaryGift: FC = () => {
         <div className="px-4 pt-14 lg:px-10">
           <div className="@container mx-auto grid grid-cols-1 lg:grid-cols-2">
             <div className="grid grid-rows-1 gap-4 lg:gap-8">
-              <div className="bg-card relative rounded-2xl p-6">
-                <div className="border-primary-500 absolute top-6 right-4 bottom-6 left-4 rounded border-y"></div>
-                <div className="border-primary-500 absolute top-4 right-6 bottom-4 left-6 rounded border-y"></div>
-                <div className="border-primary-500 absolute top-6 right-4 bottom-6 left-4 rounded border-x"></div>
-                <div className="border-primary-500 absolute top-4 right-6 bottom-4 left-6 rounded border-x"></div>
+              <motion.div
+                viewport={{ once: true }}
+                initial={{ opacity: 0, scale: 0.5, y: 50 }}
+                whileInView={{ opacity: 1, scale: 1, y: 0 }}
+                transition={{ duration: 0.5, ease: 'easeOut' }}
+                className="bg-card relative rounded-2xl p-6"
+              >
+                <div className="border-primary-300 absolute top-6 right-4 bottom-6 left-4 rounded border-y"></div>
+                <div className="border-primary-300 absolute top-4 right-6 bottom-4 left-6 rounded border-y"></div>
+                <div className="border-primary-300 absolute top-6 right-4 bottom-6 left-4 rounded border-x"></div>
+                <div className="border-primary-300 absolute top-4 right-6 bottom-4 left-6 rounded border-x"></div>
+
+                <div className="absolute top-0 h-auto w-full">
+                  <Image
+                    src="images/shape6.5390e515.svg"
+                    alt=""
+                    width="375"
+                    height="289"
+                    className="h-auto w-full"
+                  />
+                </div>
 
                 <div className="relative z-[1] flex flex-col items-center justify-center p-6">
                   <div
@@ -115,13 +135,29 @@ const SectionWeddingMonetaryGift: FC = () => {
                     </a>
                   </div>
                 </div>
-              </div>
+              </motion.div>
 
-              <div className="bg-card relative rounded-2xl p-6">
-                <div className="border-primary-500 absolute top-6 right-4 bottom-6 left-4 rounded border-y"></div>
-                <div className="border-primary-500 absolute top-4 right-6 bottom-4 left-6 rounded border-y"></div>
-                <div className="border-primary-500 absolute top-6 right-4 bottom-6 left-4 rounded border-x"></div>
-                <div className="border-primary-500 absolute top-4 right-6 bottom-4 left-6 rounded border-x"></div>
+              <motion.div
+                viewport={{ once: true }}
+                initial={{ opacity: 0, scale: 0.5, y: 50 }}
+                whileInView={{ opacity: 1, scale: 1, y: 0 }}
+                transition={{ duration: 0.5, ease: 'easeOut' }}
+                className="bg-card relative rounded-2xl p-6"
+              >
+                <div className="border-primary-300 absolute top-6 right-4 bottom-6 left-4 rounded border-y"></div>
+                <div className="border-primary-300 absolute top-4 right-6 bottom-4 left-6 rounded border-y"></div>
+                <div className="border-primary-300 absolute top-6 right-4 bottom-6 left-4 rounded border-x"></div>
+                <div className="border-primary-300 absolute top-4 right-6 bottom-4 left-6 rounded border-x"></div>
+
+                <div className="absolute top-0 h-auto w-full">
+                  <Image
+                    src="images/shape6.5390e515.svg"
+                    alt=""
+                    width="375"
+                    height="289"
+                    className="h-auto w-full"
+                  />
+                </div>
 
                 <div className="relative z-[1] flex flex-col items-center justify-center p-6">
                   <div
@@ -188,7 +224,7 @@ const SectionWeddingMonetaryGift: FC = () => {
                     </a>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>

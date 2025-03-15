@@ -1,6 +1,9 @@
+'use client';
+
 import { FC } from 'react';
 import Image from 'next/image';
 import { dancingScript } from '@/config/fonts';
+import { motion } from 'motion/react';
 
 import Countdown from './Countdown';
 
@@ -50,7 +53,12 @@ const CountDown: FC = () => {
       </div>
 
       <div className="@container relative z-[1] mx-auto grid min-h-screen gap-28 px-4 lg:grid-cols-2 lg:gap-10 lg:px-10">
-        <div className="flex flex-col items-center justify-center">
+        <motion.div
+          initial={{ opacity: 0, x: -50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8, ease: 'easeOut' }}
+          className="flex flex-col items-center justify-center"
+        >
           <div className="mb-8 flex items-center justify-center">
             <Image
               className="animated-floating-2"
@@ -84,9 +92,14 @@ const CountDown: FC = () => {
               alt=""
             />
           </div>
-        </div>
+        </motion.div>
 
-        <div className="flex items-center justify-center">
+        <motion.div
+          initial={{ opacity: 0, x: 50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8, ease: 'easeOut' }}
+          className="flex items-center justify-center"
+        >
           <div className="relative flex flex-col items-center overflow-visible">
             <div className="absolute bottom-[-6rem] left-1/2 z-1 w-40 -translate-x-1/2 lg:bottom-[-4rem]">
               <Image
@@ -107,7 +120,7 @@ const CountDown: FC = () => {
               />
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

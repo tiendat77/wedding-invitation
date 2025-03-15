@@ -1,5 +1,9 @@
+'use client';
+
 import { FC } from 'react';
 import Image from 'next/image';
+import { motion } from 'motion/react';
+
 import MemoryBookForm from './MemoryBookForm';
 import { greatVibes } from '@/config/fonts';
 
@@ -33,9 +37,15 @@ const SectionMemoryBook: FC = () => {
                 className="h-[120%] w-[120%]"
               />
             </div>
-            <div className="bg-card z-1 min-w-full rounded-2xl lg:min-w-md">
+            <motion.div
+              viewport={{ once: true }}
+              initial={{ opacity: 0, scale: 0.5, y: 150 }}
+              whileInView={{ opacity: 1, scale: 1, y: 0 }}
+              transition={{ duration: 0.5, ease: 'easeOut' }}
+              className="bg-card z-1 min-w-full rounded-2xl lg:min-w-md"
+            >
               <MemoryBookForm />
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

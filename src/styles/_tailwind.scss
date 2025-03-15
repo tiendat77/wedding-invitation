@@ -3,17 +3,17 @@
 @custom-variant dark (&:where([data-theme=darkTheme], [data-theme=darkTheme] *));
 
 @theme {
-  --color-primary-50: #eff6ff;
-  --color-primary-100: #dbebfe;
-  --color-primary-200: #bfddfe;
-  --color-primary-300: #7fbefd;
-  --color-primary-400: #60a9fa;
-  --color-primary-500: #3a87f7;
-  --color-primary-600: #2469ec;
-  --color-primary-700: #1c53d9;
-  --color-primary-800: #1e44af;
-  --color-primary-900: #1e3d8a;
-  --color-primary-950: #172754;
+  --color-primary-50: #f2f7fc;
+  --color-primary-100: #e1edf8;
+  --color-primary-200: #cae0f3;
+  --color-primary-300: #add1ec;
+  --color-primary-400: #7bb2df;
+  --color-primary-500: #5c96d5;
+  --color-primary-600: #487dc8;
+  --color-primary-700: #3e6ab7;
+  --color-primary-800: #385795;
+  --color-primary-900: #314a77;
+  --color-primary-950: #222f49;
 
   --icon-size-3: 0.75rem !important;
   --icon-size-4: 1rem !important;
@@ -145,7 +145,7 @@
   --color-base-200: oklch(98% 0.002 247.839);
   --color-base-300: oklch(96% 0.001 286.375);
   --color-base-content: oklch(21% 0.006 285.885);
-  --color-primary: #7fbefd;
+  --color-primary: #add1ec;
   --color-primary-content: #ffffff;
   --color-secondary: #fdb7ea;
   --color-secondary-content: #ffffff;
