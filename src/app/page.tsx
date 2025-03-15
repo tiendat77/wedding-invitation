@@ -8,6 +8,8 @@ import SectionOurStory from '@/components/SectionOurStory';
 import SectionInvitation from '@/components/SectionInvitation';
 import SectionWeddingEvents from '@/components/SectionWeddingEvents';
 import SectionMemoryBook from '@/components/SectionMemoryBook';
+import SectionWeddingMonetaryGift from '@/components/SectionMonetary';
+import SectionThankYou from '@/components/SectionThankYou';
 
 /**
  * Metadata
@@ -29,6 +31,8 @@ export default function Page() {
       <SectionAlbum />
       <SectionMemoryBook />
       <SectionWeddingEvents />
+      <SectionWeddingMonetaryGift />
+      <SectionThankYou />
     </>
   );
 }

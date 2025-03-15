@@ -4,7 +4,7 @@ import { greatVibes } from '@/config/fonts';
 
 const SectionOurStory: FC = () => {
   return (
-    <section className="relative py-24 lg:py-20">
+    <section className="relative overflow-hidden py-24 lg:py-20">
       <div className="@container mx-auto px-4 lg:px-10">
         <div className="mb-20 flex flex-col items-center">
           <h2

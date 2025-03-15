@@ -44,13 +44,13 @@ const SectionWeddingMonetaryGift: FC = () => {
         <div className="px-4 pt-14 lg:px-10">
           <div className="@container mx-auto grid grid-cols-1 lg:grid-cols-2">
             <div className="grid grid-rows-1 gap-4 lg:gap-8">
-              <div className="bg-card relative rounded-2xl p-4">
-                <div className="border-primary-700 absolute top-3 right-2 bottom-3 left-2 rounded border-y"></div>
-                <div className="border-primary-700 absolute top-2 right-3 bottom-2 left-3 rounded border-y"></div>
-                <div className="border-primary-700 absolute top-3 right-2 bottom-3 left-2 rounded border-x"></div>
-                <div className="border-primary-700 absolute top-2 right-3 bottom-2 left-3 rounded border-x"></div>
+              <div className="bg-card relative rounded-2xl p-6">
+                <div className="border-primary-500 absolute top-6 right-4 bottom-6 left-4 rounded border-y"></div>
+                <div className="border-primary-500 absolute top-4 right-6 bottom-4 left-6 rounded border-y"></div>
+                <div className="border-primary-500 absolute top-6 right-4 bottom-6 left-4 rounded border-x"></div>
+                <div className="border-primary-500 absolute top-4 right-6 bottom-4 left-6 rounded border-x"></div>
 
-                <div className="relative z-[1] flex flex-col items-center justify-center p-3">
+                <div className="relative z-[1] flex flex-col items-center justify-center p-6">
                   <div
                     className="mask h-40 w-40 overflow-hidden"
                     style={{ maskImage: 'url(/images/mask3.89a7b89c56df.svg)' }}
@@ -117,13 +117,13 @@ const SectionWeddingMonetaryGift: FC = () => {
                 </div>
               </div>
 
-              <div className="bg-card relative rounded-2xl p-4">
-                <div className="border-primary-700 absolute top-3 right-2 bottom-3 left-2 rounded border-y"></div>
-                <div className="border-primary-700 absolute top-2 right-3 bottom-2 left-3 rounded border-y"></div>
-                <div className="border-primary-700 absolute top-3 right-2 bottom-3 left-2 rounded border-x"></div>
-                <div className="border-primary-700 absolute top-2 right-3 bottom-2 left-3 rounded border-x"></div>
+              <div className="bg-card relative rounded-2xl p-6">
+                <div className="border-primary-500 absolute top-6 right-4 bottom-6 left-4 rounded border-y"></div>
+                <div className="border-primary-500 absolute top-4 right-6 bottom-4 left-6 rounded border-y"></div>
+                <div className="border-primary-500 absolute top-6 right-4 bottom-6 left-4 rounded border-x"></div>
+                <div className="border-primary-500 absolute top-4 right-6 bottom-4 left-6 rounded border-x"></div>
 
-                <div className="relative z-[1] flex flex-col items-center justify-center p-3">
+                <div className="relative z-[1] flex flex-col items-center justify-center p-6">
                   <div
                     className="mask h-40 w-40 overflow-hidden"
                     style={{ maskImage: 'url(/images/mask4.89b0d9a97f.svg)' }}

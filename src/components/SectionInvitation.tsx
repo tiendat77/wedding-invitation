@@ -59,16 +59,16 @@ const SectionInvitation: FC = () => {
               <div className="flex gap-2 lg:gap-4">
                 <div className="w-1/2 flex-auto text-center text-sm font-medium lg:text-lg">
                   <div className="mb-3 text-sm">Nhà trai</div>
-                  <div className="mb-1">Huỳnh Văn Cẩm</div>
-                  <div className="mb-1">Lê Thị Phượng</div>
+                  <div className="mb-1 uppercase">Huỳnh Văn Cẩm</div>
+                  <div className="mb-1 uppercase">Lê Thị Phượng</div>
                   <div className="text-sm italic">
                     Tân Lý Đông, Châu Thành, Tiền Giang
                   </div>
                 </div>
                 <div className="w-1/2 flex-auto text-center text-sm font-medium lg:text-lg">
                   <div className="mb-3 text-sm">Nhà gái</div>
-                  <div className="mb-1">Lý Văn Sơn</div>
-                  <div className="mb-1">Nguyễn Thị Nhiều</div>
+                  <div className="mb-1 uppercase">Lý Văn Sơn</div>
+                  <div className="mb-1 uppercase">Nguyễn Thị Nhiều</div>
                   <div className="text-sm italic">
                     Thân Cửu Nghĩa, Châu Thành, Tiền Giang
                   </div>
