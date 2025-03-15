@@ -10,6 +10,8 @@ import SectionWeddingEvents from '@/components/SectionWeddingEvents';
 import SectionMemoryBook from '@/components/SectionMemoryBook';
 import SectionWeddingMonetaryGift from '@/components/SectionMonetary';
 import SectionThankYou from '@/components/SectionThankYou';
+import FallingHearts from '@/components/FallingHearts';
+import Mute from '@/components/Mute';
 
 /**
  * Metadata
@@ -33,6 +35,8 @@ export default function Page() {
       <SectionWeddingEvents />
       <SectionWeddingMonetaryGift />
       <SectionThankYou />
+      <FallingHearts />
+      <Mute />
     </>
   );
 }
