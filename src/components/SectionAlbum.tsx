@@ -23,7 +23,7 @@ const SectionAlbum: FC = () => {
       <div className="@container mx-auto px-4 lg:px-10">
         <div className="flex flex-col items-center">
           <h2
-            className={`${greatVibes.className} text-center text-4xl font-semibold lg:text-6xl`}
+            className={`${greatVibes.className} text-center text-5xl font-semibold lg:text-6xl`}
           >
             Album hình cưới
           </h2>

@@ -3,11 +3,7 @@
 import { FC, useEffect, useState } from 'react';
 import Heart from './Heart';
 
-export interface FallingHeartsProps {
-  className?: string;
-}
-
-const FallingHearts: FC<FallingHeartsProps> = () => {
+const FallingHearts: FC = () => {
   const [hearts, setHearts] = useState([]);
 
   useEffect(() => {

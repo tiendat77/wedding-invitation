@@ -10,10 +10,10 @@ import { greatVibes } from '@/config/fonts';
 const SectionMemoryBook: FC = () => {
   return (
     <section className="relative bg-[#f3f6fb] py-24 lg:py-28">
-      <div className="@container mx-auto px-4 lg:px-10">
+      <div className="@container relative z-1 mx-auto px-4 lg:px-10">
         <div className="flex flex-col items-center">
           <h2
-            className={`${greatVibes.className} text-center text-4xl font-semibold lg:text-6xl`}
+            className={`${greatVibes.className} text-center text-5xl font-semibold lg:text-6xl`}
           >
             Sổ lưu bút
           </h2>

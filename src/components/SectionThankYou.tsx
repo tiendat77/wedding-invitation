@@ -44,7 +44,7 @@ const SectionThankYou: FC = () => {
                 alt=""
                 width="800"
                 height="531"
-                className="h-full w-auto"
+                className="h-full w-auto opacity-60"
               />
             </div>
 

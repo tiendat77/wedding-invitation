@@ -2,7 +2,6 @@
 
 import { FC } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 import { motion } from 'motion/react';
 
 import { greatVibes } from '@/config/fonts';
@@ -63,7 +62,7 @@ const WhoWeAre: FC = () => {
             transition={{ duration: 0.8, ease: 'easeOut' }}
             className="relative flex flex-col items-center justify-center"
           >
-            <div className="absolute top-[-15%] left-0 z-[-1] h-auto w-2/3 lg:left-[-15%] lg:w-full">
+            <div className="absolute top-[-5%] left-0 z-[-1] h-auto w-1/3 lg:left-[-5%] lg:w-1/2">
               <Image
                 className="animated-floating-2 h-auto w-full"
                 src="/images/shape31.867a6d987b9c.webp"
@@ -94,7 +93,7 @@ const WhoWeAre: FC = () => {
             transition={{ duration: 0.8, ease: 'easeOut' }}
             className="flex flex-col justify-center lg:col-span-2 lg:max-w-lg"
           >
-            <div className="mb-8 text-center text-5xl sm:text-6xl xl:text-7xl 2xl:text-7xl">
+            <div className="mb-8 text-center text-5xl font-semibold lg:text-6xl">
               <h2 className={greatVibes.className}>Thu An</h2>
             </div>
 
@@ -105,38 +104,6 @@ const WhoWeAre: FC = () => {
                 maiores laboriosam asperiores perspiciatis labore iure
                 dignissimos dolores soluta. Est eaque illum dolores!
               </p>
-            </div>
-
-            <div className="flex items-center justify-center gap-4">
-              <Link href="#">
-                <Image
-                  className="h-6 w-6"
-                  width="100"
-                  height="100"
-                  src="/images/facebook-logo.svg"
-                  alt=""
-                />
-              </Link>
-
-              <Link href="#">
-                <Image
-                  className="h-6 w-6"
-                  width="100"
-                  height="100"
-                  src="/images/instagram-logo.svg"
-                  alt=""
-                />
-              </Link>
-
-              <Link href="#">
-                <Image
-                  className="h-6 w-6"
-                  width="100"
-                  height="100"
-                  src="/images/zalo-logo.svg"
-                  alt=""
-                />
-              </Link>
             </div>
           </motion.div>
         </div>
@@ -149,7 +116,7 @@ const WhoWeAre: FC = () => {
             transition={{ duration: 0.8, ease: 'easeOut' }}
             className="order-2 flex flex-col justify-center lg:order-1 lg:col-span-2 lg:max-w-lg"
           >
-            <div className="mb-8 text-center text-5xl sm:text-6xl xl:text-7xl 2xl:text-7xl">
+            <div className="mb-8 text-center text-5xl font-semibold lg:text-6xl">
               <h2 className={greatVibes.className}>Tiến Đạt</h2>
             </div>
 
@@ -161,38 +128,6 @@ const WhoWeAre: FC = () => {
                 dignissimos dolores soluta. Est eaque illum dolores!
               </p>
             </div>
-
-            <div className="flex items-center justify-center gap-4">
-              <Link href="#">
-                <Image
-                  className="h-6 w-6"
-                  width="100"
-                  height="100"
-                  src="/images/facebook-logo.svg"
-                  alt=""
-                />
-              </Link>
-
-              <Link href="#">
-                <Image
-                  className="h-6 w-6"
-                  width="100"
-                  height="100"
-                  src="/images/instagram-logo.svg"
-                  alt=""
-                />
-              </Link>
-
-              <Link href="#">
-                <Image
-                  className="h-6 w-6"
-                  width="100"
-                  height="100"
-                  src="/images/zalo-logo.svg"
-                  alt=""
-                />
-              </Link>
-            </div>
           </motion.div>
 
           <motion.div
@@ -202,7 +137,7 @@ const WhoWeAre: FC = () => {
             transition={{ duration: 0.8, ease: 'easeOut' }}
             className="relative order-1 flex flex-col items-center justify-center lg:order-2"
           >
-            <div className="absolute top-0 right-0 z-[-1] h-auto w-2/3 lg:right-[-20%]">
+            <div className="absolute top-[-10%] right-0 z-[-1] h-auto w-1/2 lg:right-[-15%] lg:w-2/3">
               <Image
                 className="animated-floating-2 h-full w-auto"
                 src="/images/shape32.8954a9b6d87f.webp"

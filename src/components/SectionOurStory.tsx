@@ -9,10 +9,10 @@ import { greatVibes } from '@/config/fonts';
 const SectionOurStory: FC = () => {
   return (
     <section className="relative overflow-hidden py-24 lg:py-20">
-      <div className="@container mx-auto px-4 lg:px-10">
+      <div className="@container relative z-1 mx-auto px-4 lg:px-10">
         <div className="mb-20 flex flex-col items-center">
           <h2
-            className={`${greatVibes.className} text-center text-4xl font-semibold lg:text-6xl`}
+            className={`${greatVibes.className} text-center text-5xl font-semibold lg:text-6xl`}
           >
             Câu chuyện của chúng mình
           </h2>
@@ -32,10 +32,10 @@ const SectionOurStory: FC = () => {
               initial={{ opacity: 0, scale: 0.5, x: -150 }}
               whileInView={{ opacity: 1, scale: 1, x: 0 }}
               transition={{ duration: 0.8, ease: 'easeOut' }}
-              className="flex flex-col items-center overflow-visible"
+              className="relative z-[-1] flex flex-col items-center overflow-visible"
             >
               <div className="group relative">
-                <div className="absolute top-[-35%] z-[-1] h-auto w-[80%] lg:left-[-20%] lg:w-[80%]">
+                <div className="absolute top-[-35%] z-[-1] h-auto w-[60%] lg:left-[-20%] lg:w-[80%]">
                   <Image
                     className="animated-floating-2 h-auto w-full"
                     width="420"
@@ -62,7 +62,7 @@ const SectionOurStory: FC = () => {
               initial={{ opacity: 0, scale: 0.5, x: 150 }}
               whileInView={{ opacity: 1, scale: 1, x: 0 }}
               transition={{ duration: 0.8, ease: 'easeOut' }}
-              className="flex flex-col justify-center text-center lg:text-left"
+              className="relative z-1 flex flex-col justify-center text-center lg:text-left"
             >
               <div className="mb-4">
                 <span className="text-primary font-bold lg:text-xl">
@@ -88,7 +88,7 @@ const SectionOurStory: FC = () => {
       </div>
 
       <div className="relative px-4 py-14 lg:px-10 lg:py-26">
-        <div className="absolute top-0 left-[-4rem] -z-0 hidden h-full lg:block">
+        <div className="absolute top-0 left-[-4rem] z-0 hidden h-full lg:block">
           <Image
             className="h-full w-auto"
             width="467"
@@ -105,7 +105,7 @@ const SectionOurStory: FC = () => {
               initial={{ opacity: 0, scale: 0.5, x: -150 }}
               whileInView={{ opacity: 1, scale: 1, x: 0 }}
               transition={{ duration: 0.8, ease: 'easeOut' }}
-              className="order-2 flex flex-col justify-center text-center lg:order-1 lg:text-right"
+              className="relative z-1 order-2 flex flex-col justify-center text-center lg:order-1 lg:text-right"
             >
               <div className="mb-4">
                 <span className="text-primary font-bold lg:text-xl">
@@ -132,10 +132,10 @@ const SectionOurStory: FC = () => {
               initial={{ opacity: 0, scale: 0.5, x: 150 }}
               whileInView={{ opacity: 1, scale: 1, x: 0 }}
               transition={{ duration: 0.8, ease: 'easeOut' }}
-              className="order-1 flex flex-col items-center overflow-visible lg:order-2"
+              className="relative z-[-1] order-1 flex flex-col items-center overflow-visible lg:order-2"
             >
               <div className="group relative">
-                <div className="absolute top-[-35%] left-[10%] z-[-1] h-auto w-[50%] lg:left-0 lg:w-[80%]">
+                <div className="absolute top-[-20%] left-[20%] z-[-1] h-auto w-[50%] lg:left-0 lg:w-[60%]">
                   <Image
                     className="animated-floating-2 h-auto w-full"
                     width="588"
@@ -161,7 +161,7 @@ const SectionOurStory: FC = () => {
       </div>
 
       <div className="relative px-4 py-14 lg:px-10 lg:py-26">
-        <div className="absolute top-0 right-0 -z-0 hidden h-full lg:block">
+        <div className="absolute top-0 right-0 z-0 hidden h-full lg:block">
           <Image
             className="h-full w-auto"
             width="467"
@@ -178,10 +178,10 @@ const SectionOurStory: FC = () => {
               initial={{ opacity: 0, scale: 0.5, x: -150 }}
               whileInView={{ opacity: 1, scale: 1, x: 0 }}
               transition={{ duration: 0.8, ease: 'easeOut' }}
-              className="group flex flex-col items-center overflow-visible"
+              className="group relative z-[-1] flex flex-col items-center overflow-visible"
             >
               <div className="relative">
-                <div className="absolute top-[-45%] left-[10%] z-[-1] h-auto w-[50%] lg:left-0 lg:w-[80%]">
+                <div className="absolute top-[-20%] left-[10%] z-[-1] h-auto w-[40%] lg:top-[-45%] lg:left-0 lg:w-[80%]">
                   <Image
                     className="animated-floating-2 h-auto w-full"
                     width="420"
@@ -208,7 +208,7 @@ const SectionOurStory: FC = () => {
               initial={{ opacity: 0, scale: 0.5, x: 150 }}
               whileInView={{ opacity: 1, scale: 1, x: 0 }}
               transition={{ duration: 0.8, ease: 'easeOut' }}
-              className="flex flex-col justify-center text-center lg:text-left"
+              className="relative z-1 flex flex-col justify-center text-center lg:text-left"
             >
               <div className="mb-4">
                 <span className="text-primary font-bold lg:text-xl">

@@ -6,6 +6,7 @@ import { loversQuarrel } from '@/config/fonts';
 
 const MemoryBookForm: FC = () => {
   const [name, setName] = useState<string>('');
+  const [connection, setConnection] = useState<string>('');
   const [wishes, setWishes] = useState<string>('');
 
   const [isLoading, setIsLoading] = useState<boolean>(false);
@@ -29,6 +30,7 @@ const MemoryBookForm: FC = () => {
     const form = new FormData();
     form.append('entry.668408762', name);
     form.append('entry.1187142298', wishes);
+    form.append('entry.1825658566', connection);
 
     fetch(
       'https://docs.google.com/forms/d/e/1FAIpQLSecqvkbZnJgv6Hz-RYv8Wwj9Wq3MJ7xdG54YXdKnQi5uDjQOQ/formResponse',
@@ -93,7 +95,9 @@ const MemoryBookForm: FC = () => {
       onSubmit={(e) => handleSubmit(e)}
     >
       <fieldset className="fieldset">
-        <legend className="fieldset-legend">Tên của bạn là gì?</legend>
+        <legend className="fieldset-legend">
+          Tên của bạn là gì? <small className="text-red-500">*</small>
+        </legend>
         <input
           type="text"
           className="input w-full"
@@ -101,6 +105,27 @@ const MemoryBookForm: FC = () => {
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
+      </fieldset>
+
+      <fieldset className="fieldset">
+        <legend className="fieldset-legend">
+          Bạn là ai trong thế giới của cô dâu chú rể?
+        </legend>
+        <select
+          className="select w-full"
+          value={connection}
+          onChange={(e) => setConnection(e.target.value)}
+        >
+          <option
+            disabled
+            value=""
+          >
+            Chọn một cái nha
+          </option>
+          <option value="Bạn thân của cô dâu">Bạn thân của cô dâu</option>
+          <option value="Cạ cứng của chú rể">Cạ cứng của chú rể</option>
+          <option value="Khác">Khác</option>
+        </select>
       </fieldset>
 
       <fieldset className="fieldset">

@@ -33,7 +33,7 @@ const SectionWeddingMonetaryGift: FC = () => {
         <div className="@container mx-auto px-4 text-white lg:px-10">
           <div className="flex flex-col items-center">
             <h2
-              className={`${greatVibes.className} text-center text-4xl font-semibold lg:text-6xl`}
+              className={`${greatVibes.className} text-center text-5xl font-semibold lg:text-6xl`}
             >
               Sự kiện cưới
             </h2>
@@ -55,20 +55,20 @@ const SectionWeddingMonetaryGift: FC = () => {
                 transition={{ duration: 0.5, ease: 'easeOut' }}
                 className="bg-card relative rounded-2xl p-6"
               >
-                <div className="border-primary-300 absolute top-6 right-4 bottom-6 left-4 rounded border-y"></div>
-                <div className="border-primary-300 absolute top-4 right-6 bottom-4 left-6 rounded border-y"></div>
-                <div className="border-primary-300 absolute top-6 right-4 bottom-6 left-4 rounded border-x"></div>
-                <div className="border-primary-300 absolute top-4 right-6 bottom-4 left-6 rounded border-x"></div>
-
-                <div className="absolute top-0 h-auto w-full">
+                <div className="absolute top-4 right-4 bottom-4 left-4 z-0 overflow-hidden">
                   <Image
                     src="images/shape6.5390e515.svg"
                     alt=""
                     width="375"
                     height="289"
-                    className="h-auto w-full"
+                    className="h-auto w-full object-cover"
                   />
                 </div>
+
+                <div className="border-primary-300 absolute top-6 right-4 bottom-6 left-4 z-0 rounded border-y"></div>
+                <div className="border-primary-300 absolute top-4 right-6 bottom-4 left-6 z-0 rounded border-y"></div>
+                <div className="border-primary-300 absolute top-6 right-4 bottom-6 left-4 z-0 rounded border-x"></div>
+                <div className="border-primary-300 absolute top-4 right-6 bottom-4 left-6 z-0 rounded border-x"></div>
 
                 <div className="relative z-[1] flex flex-col items-center justify-center p-6">
                   <div
@@ -84,7 +84,7 @@ const SectionWeddingMonetaryGift: FC = () => {
                     />
                   </div>
 
-                  <h2 className="mb-4 text-3xl font-medium">
+                  <h2 className="my-4 text-3xl font-medium">
                     Tiệc cưới nhà gái
                   </h2>
 
@@ -98,7 +98,7 @@ const SectionWeddingMonetaryGift: FC = () => {
                       <path d="M128,20A108,108,0,1,0,236,128,108.12,108.12,0,0,0,128,20Zm0,192a84,84,0,1,1,84-84A84.09,84.09,0,0,1,128,212Zm68-84a12,12,0,0,1-12,12H128a12,12,0,0,1-12-12V72a12,12,0,0,1,24,0v44h44A12,12,0,0,1,196,128Z"></path>
                     </svg>
 
-                    <span className="ml-2">11:00 - 13/06/2025</span>
+                    <span className="ml-2">18:00 - 13/06/2025</span>
                   </p>
 
                   <p className="mb-6 text-center">
@@ -144,20 +144,20 @@ const SectionWeddingMonetaryGift: FC = () => {
                 transition={{ duration: 0.5, ease: 'easeOut' }}
                 className="bg-card relative rounded-2xl p-6"
               >
-                <div className="border-primary-300 absolute top-6 right-4 bottom-6 left-4 rounded border-y"></div>
-                <div className="border-primary-300 absolute top-4 right-6 bottom-4 left-6 rounded border-y"></div>
-                <div className="border-primary-300 absolute top-6 right-4 bottom-6 left-4 rounded border-x"></div>
-                <div className="border-primary-300 absolute top-4 right-6 bottom-4 left-6 rounded border-x"></div>
-
-                <div className="absolute top-0 h-auto w-full">
+                <div className="absolute top-4 right-4 bottom-4 left-4 z-0 overflow-hidden">
                   <Image
                     src="images/shape6.5390e515.svg"
                     alt=""
                     width="375"
                     height="289"
-                    className="h-auto w-full"
+                    className="h-auto w-full object-cover"
                   />
                 </div>
+
+                <div className="border-primary-300 absolute top-6 right-4 bottom-6 left-4 z-0 rounded border-y"></div>
+                <div className="border-primary-300 absolute top-4 right-6 bottom-4 left-6 z-0 rounded border-y"></div>
+                <div className="border-primary-300 absolute top-6 right-4 bottom-6 left-4 z-0 rounded border-x"></div>
+                <div className="border-primary-300 absolute top-4 right-6 bottom-4 left-6 z-0 rounded border-x"></div>
 
                 <div className="relative z-[1] flex flex-col items-center justify-center p-6">
                   <div
@@ -173,7 +173,7 @@ const SectionWeddingMonetaryGift: FC = () => {
                     />
                   </div>
 
-                  <h2 className="mb-4 text-3xl font-medium">
+                  <h2 className="my-4 text-3xl font-medium">
                     Tiệc cưới nhà trai
                   </h2>
 

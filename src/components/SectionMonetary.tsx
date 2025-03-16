@@ -9,10 +9,10 @@ import { greatVibes } from '@/config/fonts';
 const SectionMonetary: FC = () => {
   return (
     <section className="bg-primary-50 relative py-24 lg:py-28">
-      <div className="@container mx-auto px-4 lg:px-10">
-        <div className="relative z-[1] flex flex-col items-center">
+      <div className="@container relative z-1 mx-auto px-4 lg:px-10">
+        <div className="flex flex-col items-center">
           <h2
-            className={`${greatVibes.className} text-center text-4xl font-semibold lg:text-6xl`}
+            className={`${greatVibes.className} text-center text-5xl font-semibold lg:text-6xl`}
           >
             Hộp mừng cưới
           </h2>
@@ -52,7 +52,7 @@ const SectionMonetary: FC = () => {
               <div className="relative z-[1] flex flex-col items-center justify-center gap-3 p-6">
                 <div className="h-50 w-50 overflow-hidden rounded">
                   <Image
-                    src="/mockup/qr-code.png"
+                    src="/images/qr-code-vnpay.png"
                     alt=""
                     width="200"
                     height="200"
