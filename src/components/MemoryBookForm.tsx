@@ -122,9 +122,9 @@ const MemoryBookForm: FC = () => {
           >
             Chọn một cái nha
           </option>
-          <option value="Bạn thân của cô dâu">Bạn thân của cô dâu</option>
-          <option value="Cạ cứng của chú rể">Cạ cứng của chú rể</option>
-          <option value="Khác">Khác</option>
+          <option value="Team cô dâu đây!">Team cô dâu đây!</option>
+          <option value="Team chú rể nha!">Team chú rể nha!</option>
+          <option value="Khách VIP bất ngờ">Khách VIP bất ngờ</option>
         </select>
       </fieldset>
 

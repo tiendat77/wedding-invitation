@@ -23,8 +23,7 @@ const SectionWeddingMonetaryGift: FC = () => {
     <section
       className="relative bg-cover bg-no-repeat"
       style={{
-        backgroundImage:
-          "url('/mockup/480852077_1064956642342329_2176700483501458871_n.jpg')",
+        backgroundImage: "url('/album/5L3A3181.JPG')",
       }}
     >
       <div className="absolute z-0 h-full w-full backdrop-brightness-50"></div>

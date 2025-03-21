@@ -99,10 +99,13 @@ const WhoWeAre: FC = () => {
 
             <div className="mb-8 space-y-2 text-center">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                dolorum deserunt veritatis provident nobis nihil iste, excepturi
-                maiores laboriosam asperiores perspiciatis labore iure
-                dignissimos dolores soluta. Est eaque illum dolores!
+                Cô gái cung Thiên Bình, tỉ mỉ từng chút một, chăm chỉ như chú
+                ong nhỏ, lúc nào cũng rạng rỡ nụ cười và tràn đầy nhiệt huyết.
+                Nhưng mà, đôi khi, cô cũng hơi đãng trí một chút, kiểu như đang
+                cầm cây bút mà lại đi tìm khắp nhà ấy. Cô thích màu hồng, cái
+                màu của những giấc mơ ngọt ngào, và trong lòng lúc nào cũng ấp ủ
+                hình ảnh một ngôi nhà nhỏ xinh, chẳng cần to đâu, chỉ cần đầy ắp
+                hạnh phúc, bên cạnh người chồng thương cô hết mực.
               </p>
             </div>
           </motion.div>
@@ -122,10 +125,14 @@ const WhoWeAre: FC = () => {
 
             <div className="mb-8 space-y-2 text-center">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                dolorum deserunt veritatis provident nobis nihil iste, excepturi
-                maiores laboriosam asperiores perspiciatis labore iure
-                dignissimos dolores soluta. Est eaque illum dolores!
+                Một gã lập trình viên quái đản, suốt ngày lẩm nhẩm với máy tính,
+                tay gõ phím còn nhanh hơn cả tim đập khi hồi hộp. Lúc mới gặp ai
+                cũng bảo gã hiền, mặt lúc nào cũng toe toét như nắng giữa trưa,
+                nhưng sâu thẳm trong lòng, hắn lại hay cáu kỉnh, kiểu như mèo
+                con bị ai giẫm đuôi. Gã thích ngồi một góc đọc sách, xem phim,
+                hay cày game đến quên giờ. Gã muốn một căn nhà nhỏ, tường trắng
+                tinh, nắng tràn qua cửa, có vườn hoa nở rộ quanh năm, để cùng cô
+                ấy ngồi đó, chẳng cần gì hơn ngoài tiếng cười.
               </p>
             </div>
           </motion.div>
