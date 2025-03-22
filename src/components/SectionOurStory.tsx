@@ -50,7 +50,7 @@ const SectionOurStory: FC = () => {
                     className="mask mask-hexagon h-auto w-full min-w-[20rem] transition duration-300 group-hover:scale-105 lg:min-w-md"
                     width="420"
                     height="660"
-                    src="/mockup/glenlo-abbey_hotel-gway-wedding-venue-beenchanted-wedding-package_1.jpg"
+                    src="/album/1db2895f8d2909f331c2654c85f17218accc65ce6a9896314d4189cfb5576a5b.jpg"
                     alt=""
                   />
                 </div>
@@ -75,11 +75,14 @@ const SectionOurStory: FC = () => {
               </div>
 
               <div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                  dolorum deserunt veritatis provident nobis nihil iste,
-                  excepturi maiores laboriosam asperiores perspiciatis labore
-                  iure dignissimos dolores soluta. Est eaque illum dolores!
+                <p className="text-center lg:text-left">
+                  Hồi đó, hai đứa mình gặp nhau khi vừa bước chân vào lớp 10,
+                  cái tuổi còn mơ màng với sách vở và những buổi chiều tan
+                  trường. Lúc đầu chẳng có gì đặc biệt đâu, chỉ là hai khuôn mặt
+                  lẫn trong đám đông, thoáng qua như gió lùa qua hàng cây. Rồi
+                  những lần làm việc nhóm, những chuyến đi chơi cùng lũ bạn,
+                  chúng mình bắt đầu để ý nhau, ánh mắt, nụ cười, cứ thế len lỏi
+                  vào lòng nhau.
                 </p>
               </div>
             </motion.div>
@@ -118,11 +121,16 @@ const SectionOurStory: FC = () => {
               </div>
 
               <div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                  dolorum deserunt veritatis provident nobis nihil iste,
-                  excepturi maiores laboriosam asperiores perspiciatis labore
-                  iure dignissimos dolores soluta. Est eaque illum dolores!
+                <p className="text-center lg:text-right">
+                  Tụi mình chính thức hẹn hò vào một buổi trưa lớp 11, ngay giữa
+                  sân trường, nơi nắng lung linh lọc qua tán liễu và phượng vĩ
+                  đỏ rực một góc trời. Trước đó, qua mấy lần đi chơi chung với
+                  đám bạn, rồi vài buổi nghỉ hè chỉ có hai đứa lang thang đâu
+                  đó, lòng đã nhen lên chút gì khó tả. Hôm ấy, ngồi trên ghế đá,
+                  giữa tiếng ve kêu ran ran sau kỳ nghỉ, một đứa ngập ngừng nói
+                  &quot;Thích cậu thật đấy&quot;, đứa kia cười bẽn lẽn, thế là
+                  thành đôi. thành đôi. Tình yêu đến như cánh hoa phượng rơi
+                  khẽ, lặng lẽ mà vương đầy kỷ niệm.
                 </p>
               </div>
             </motion.div>
@@ -150,7 +158,7 @@ const SectionOurStory: FC = () => {
                     className="mask mask-heart h-auto w-full min-w-[20rem] transition duration-300 group-hover:scale-105 lg:min-w-md"
                     width="420"
                     height="660"
-                    src="/mockup/481697740_1062720689232591_7398307524139173159_n.jpg"
+                    src="/album/ae2ea86073403aec6c1799c14c20676a23df296cffea5856f60f2856f9bafdae.jpeg"
                     alt=""
                   />
                 </div>
@@ -196,7 +204,7 @@ const SectionOurStory: FC = () => {
                     className="mask mask-squircle h-auto w-full transition duration-300 group-hover:scale-105 lg:min-w-md"
                     width="420"
                     height="660"
-                    src="/mockup/482079616_1064957082342285_3316035399216326322_n.jpg"
+                    src="/album/0d8b43f72663b121064b86678fe22a22ef4b2be6f6000d558f91ac344987cd2d.JPG"
                     alt=""
                   />
                 </div>
@@ -221,11 +229,14 @@ const SectionOurStory: FC = () => {
               </div>
 
               <div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                  dolorum deserunt veritatis provident nobis nihil iste,
-                  excepturi maiores laboriosam asperiores perspiciatis labore
-                  iure dignissimos dolores soluta. Est eaque illum dolores!
+                <p className="text-center lg:text-left">
+                  Sau hơn mười năm bên nhau, trải qua bao sóng gió, giây phút ấy
+                  đến vào một buổi tối lộng lẫy giữa khu vườn đầy hoa, nơi yên
+                  bình chim hót. Anh đứng đó, dưới trời sao lung linh, hơi run
+                  run cầm tay em, rồi bất ngờ quỳ xuống, nói những lời mà em đã
+                  mơ từ lâu. Em lặng đi, tim đập rộn ràng như ngày đầu gặp gỡ,
+                  rồi gật đầu, để tình yêu hóa thành khúc hát dịu dàng trong
+                  gió.
                 </p>
               </div>
             </motion.div>

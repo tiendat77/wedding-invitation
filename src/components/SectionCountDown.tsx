@@ -115,7 +115,7 @@ const CountDown: FC = () => {
                 className="animated-kenburn h-auto w-full rounded-full"
                 width="420"
                 height="660"
-                src="/mockup/pexels-toan-van-13706261.jpg"
+                src="/album/f785019977dc8118b3f0a932215baa84c1fa5e95369989ba49324ad8cf4231f1.jpg"
                 alt=""
               />
             </div>

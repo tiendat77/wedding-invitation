@@ -78,7 +78,7 @@ const WhoWeAre: FC = () => {
             >
               <Image
                 className="h-auto w-lg max-w-full"
-                src="/mockup/481077062_1062266712611322_7329629910618810825_n.jpg"
+                src="/album/dc072a972a76d4185e784d17206f42ca4f503a5f82bdb2ba6e21b487fbf84752.jpg"
                 width="500"
                 height="500"
                 alt=""
@@ -97,7 +97,7 @@ const WhoWeAre: FC = () => {
               <h2 className={greatVibes.className}>Thu An</h2>
             </div>
 
-            <div className="mb-8 space-y-2 text-center">
+            <div className="mb-8 space-y-2 text-center lg:text-left">
               <p>
                 Cô gái cung Thiên Bình, tỉ mỉ từng chút một, chăm chỉ như chú
                 ong nhỏ, lúc nào cũng rạng rỡ nụ cười và tràn đầy nhiệt huyết.
@@ -123,7 +123,7 @@ const WhoWeAre: FC = () => {
               <h2 className={greatVibes.className}>Tiến Đạt</h2>
             </div>
 
-            <div className="mb-8 space-y-2 text-center">
+            <div className="mb-8 space-y-2 text-center lg:text-right">
               <p>
                 Một gã lập trình viên quái đản, suốt ngày lẩm nhẩm với máy tính,
                 tay gõ phím còn nhanh hơn cả tim đập khi hồi hộp. Lúc mới gặp ai
@@ -160,7 +160,7 @@ const WhoWeAre: FC = () => {
             >
               <Image
                 className="h-auto w-lg max-w-full"
-                src="/mockup/474803858_1042895947881732_7326705137152826489_n.jpg"
+                src="/album/1f9633236ff42cbe463260ae347c35e99d7a7e92780686d2dbd941675561a502.jpg"
                 width="500"
                 height="500"
                 alt=""

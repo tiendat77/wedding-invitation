@@ -50,7 +50,7 @@ const SectionThankYou: FC = () => {
 
             <div className="mask mask-circle relative z-[1] h-60 w-60 overflow-hidden rounded-full border-8 border-white">
               <Image
-                src="/mockup/pexels-toan-van-13706261.jpg"
+                src="/album/8ef4d5b7e7c5f2df1581a1a15dc1e9c095ab31d9a22ea6e2a99053568fe7b878.jpg"
                 alt=""
                 width="400"
                 height="400"

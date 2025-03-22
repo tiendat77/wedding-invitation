@@ -23,7 +23,8 @@ const SectionWeddingMonetaryGift: FC = () => {
     <section
       className="relative bg-cover bg-no-repeat"
       style={{
-        backgroundImage: "url('/album/5L3A3181.JPG')",
+        backgroundImage:
+          "url('/album/8945296d40040ce567d44dcf9b4f1b2c2e18c8854661a1555a8d4137d7ba4608.JPG')",
       }}
     >
       <div className="absolute z-0 h-full w-full backdrop-brightness-50"></div>
@@ -75,7 +76,7 @@ const SectionWeddingMonetaryGift: FC = () => {
                     style={{ maskImage: 'url(/images/mask3.89a7b89c56df.svg)' }}
                   >
                     <Image
-                      src="/mockup/476121996_1047898757381451_424632599530424998_n.jpg"
+                      src="/album/c916a54ac55227070769460404c062e957d9c204a87589700dd9ddb4fb28c28f.jpg"
                       alt="Wedding Event"
                       width="400"
                       height="400"
@@ -164,7 +165,7 @@ const SectionWeddingMonetaryGift: FC = () => {
                     style={{ maskImage: 'url(/images/mask4.89b0d9a97f.svg)' }}
                   >
                     <Image
-                      src="/mockup/476121996_1047898757381451_424632599530424998_n.jpg"
+                      src="/album/1cff7711ce6fc374fcf14ff3888bf0728abe2d6a16746cc0b6681fb85ecd3625.jpg"
                       alt="Wedding Event"
                       width="400"
                       height="400"
