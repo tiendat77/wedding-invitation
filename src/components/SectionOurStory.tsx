@@ -129,8 +129,8 @@ const SectionOurStory: FC = () => {
                   đó, lòng đã nhen lên chút gì khó tả. Hôm ấy, ngồi trên ghế đá,
                   giữa tiếng ve kêu ran ran sau kỳ nghỉ, một đứa ngập ngừng nói
                   &quot;Thích cậu thật đấy&quot;, đứa kia cười bẽn lẽn, thế là
-                  thành đôi. thành đôi. Tình yêu đến như cánh hoa phượng rơi
-                  khẽ, lặng lẽ mà vương đầy kỷ niệm.
+                  thành đôi. Tình yêu đến như cánh hoa phượng rơi khẽ, lặng lẽ
+                  mà vương đầy kỷ niệm.
                 </p>
               </div>
             </motion.div>
