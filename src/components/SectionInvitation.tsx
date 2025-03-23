@@ -34,7 +34,7 @@ const SectionInvitation: FC = () => {
               />
             </div>
 
-            <div className="absolute -bottom-16 -left-16 z-0">
+            <div className="absolute -bottom-16 -left-24 z-0 lg:-left-16">
               <Image
                 className="animated-floating-2 w-40"
                 src="/images/shape13.098bd90.webp"

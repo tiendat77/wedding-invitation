@@ -6,6 +6,8 @@ import {
   Lovers_Quarrel,
 } from 'next/font/google';
 
+import localFont from 'next/font/local';
+
 export const nunito = Nunito({
   subsets: ['vietnamese'],
   display: 'swap',
@@ -34,4 +36,8 @@ export const loversQuarrel = Lovers_Quarrel({
   subsets: ['latin'],
   display: 'swap',
   weight: ['400'],
+});
+
+export const piklabAndrade = localFont({
+  src: '../../public/fonts/Piklab Andrade Pro Script.ttf',
 });

@@ -4,7 +4,7 @@ import { FC } from 'react';
 import Image from 'next/image';
 import { motion } from 'motion/react';
 
-import { greatVibes } from '@/config/fonts';
+import { piklabAndrade } from '@/config/fonts';
 
 const SectionThankYou: FC = () => {
   return (
@@ -60,7 +60,7 @@ const SectionThankYou: FC = () => {
           </div>
 
           <h2
-            className={`${greatVibes.className} relative z-[1] mt-10 text-center text-5xl font-semibold lg:text-6xl`}
+            className={`${piklabAndrade.className} relative z-[1] mt-10 text-center text-5xl leading-normal font-semibold lg:text-6xl`}
           >
             Thank you!
           </h2>

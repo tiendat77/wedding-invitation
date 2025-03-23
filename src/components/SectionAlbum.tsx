@@ -4,7 +4,7 @@ import { FC } from 'react';
 import { motion } from 'motion/react';
 
 import Slides from './Slides';
-import { greatVibes } from '@/config/fonts';
+import { piklabAndrade } from '@/config/fonts';
 
 const SectionAlbum: FC = () => {
   const images = [
@@ -27,7 +27,7 @@ const SectionAlbum: FC = () => {
       <div className="@container mx-auto px-4 lg:px-10">
         <div className="flex flex-col items-center">
           <h2
-            className={`${greatVibes.className} text-center text-5xl font-semibold lg:text-6xl`}
+            className={`${piklabAndrade.className} text-center text-5xl leading-normal font-semibold lg:text-6xl`}
           >
             Album hình cưới
           </h2>
@@ -36,6 +36,14 @@ const SectionAlbum: FC = () => {
             Được ai đó yêu sâu sắc sẽ mang lại cho bạn sức mạnh, trong khi yêu
             ai đó sâu sắc sẽ cho bạn dũng khí
           </p>
+
+          <a
+            className="text-primary-500 mt-6 text-center"
+            href="https://thuantiendatweddingalbum.vercel.app/"
+            target="_blank"
+          >
+            Xem tất cả ở đây
+          </a>
         </div>
       </div>
 

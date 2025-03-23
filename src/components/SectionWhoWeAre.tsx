@@ -4,7 +4,7 @@ import { FC } from 'react';
 import Image from 'next/image';
 import { motion } from 'motion/react';
 
-import { greatVibes } from '@/config/fonts';
+import { piklabAndrade } from '@/config/fonts';
 
 const WhoWeAre: FC = () => {
   return (
@@ -94,7 +94,7 @@ const WhoWeAre: FC = () => {
             className="flex flex-col justify-center lg:col-span-2 lg:max-w-lg"
           >
             <div className="mb-8 text-center text-5xl font-semibold lg:text-6xl">
-              <h2 className={greatVibes.className}>Thu An</h2>
+              <h2 className={piklabAndrade.className}>Thu An</h2>
             </div>
 
             <div className="mb-8 space-y-2 text-center lg:text-left">
@@ -120,7 +120,7 @@ const WhoWeAre: FC = () => {
             className="order-2 flex flex-col justify-center lg:order-1 lg:col-span-2 lg:max-w-lg"
           >
             <div className="mb-8 text-center text-5xl font-semibold lg:text-6xl">
-              <h2 className={greatVibes.className}>Tiến Đạt</h2>
+              <h2 className={piklabAndrade.className}>Tiến Đạt</h2>
             </div>
 
             <div className="mb-8 space-y-2 text-center lg:text-right">

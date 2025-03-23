@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { motion } from 'motion/react';
 
 import MemoryBookForm from './MemoryBookForm';
-import { greatVibes } from '@/config/fonts';
+import { piklabAndrade } from '@/config/fonts';
 
 const SectionMemoryBook: FC = () => {
   return (
@@ -13,7 +13,7 @@ const SectionMemoryBook: FC = () => {
       <div className="@container relative z-1 mx-auto px-4 lg:px-10">
         <div className="flex flex-col items-center">
           <h2
-            className={`${greatVibes.className} text-center text-5xl font-semibold lg:text-6xl`}
+            className={`${piklabAndrade.className} text-center text-5xl leading-normal font-semibold lg:text-6xl`}
           >
             Sổ lưu bút
           </h2>

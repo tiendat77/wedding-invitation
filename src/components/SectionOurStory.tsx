@@ -4,7 +4,7 @@ import { FC } from 'react';
 import Image from 'next/image';
 import { motion } from 'motion/react';
 
-import { greatVibes } from '@/config/fonts';
+import { piklabAndrade } from '@/config/fonts';
 
 const SectionOurStory: FC = () => {
   return (
@@ -12,7 +12,7 @@ const SectionOurStory: FC = () => {
       <div className="@container relative z-1 mx-auto px-4 lg:px-10">
         <div className="mb-20 flex flex-col items-center">
           <h2
-            className={`${greatVibes.className} text-center text-5xl font-semibold lg:text-6xl`}
+            className={`${piklabAndrade.className} text-center text-5xl leading-normal font-semibold lg:text-6xl`}
           >
             Câu chuyện của chúng mình
           </h2>
@@ -35,12 +35,12 @@ const SectionOurStory: FC = () => {
               className="relative z-[-1] flex flex-col items-center overflow-visible"
             >
               <div className="group relative">
-                <div className="absolute top-[-35%] z-[-1] h-auto w-[60%] lg:left-[-20%] lg:w-[80%]">
+                <div className="absolute top-[-25%] z-[-1] h-auto w-[50%] lg:top-[-30%] lg:left-0 lg:w-[60%]">
                   <Image
                     className="animated-floating-2 h-auto w-full"
                     width="420"
                     height="660"
-                    src="/images/shape15.890d8a90.png"
+                    src="/images/shape33.9003c289a8413516aae87288e.png"
                     alt=""
                   />
                 </div>
@@ -143,12 +143,12 @@ const SectionOurStory: FC = () => {
               className="relative z-[-1] order-1 flex flex-col items-center overflow-visible lg:order-2"
             >
               <div className="group relative">
-                <div className="absolute top-[-20%] left-[20%] z-[-1] h-auto w-[50%] lg:left-0 lg:w-[60%]">
+                <div className="absolute top-[-20%] left-[20%] z-[-1] h-auto w-[50%] lg:top-[-30%] lg:left-[10%] lg:w-[60%]">
                   <Image
                     className="animated-floating-2 h-auto w-full"
                     width="588"
                     height="800"
-                    src="/images/shape16.a7s8f85d.webp"
+                    src="/images/shape34.3e2b59f47ad70cd03bf56f19b29.png"
                     alt=""
                   />
                 </div>
@@ -189,7 +189,7 @@ const SectionOurStory: FC = () => {
               className="group relative z-[-1] flex flex-col items-center overflow-visible"
             >
               <div className="relative">
-                <div className="absolute top-[-20%] left-[10%] z-[-1] h-auto w-[40%] lg:top-[-45%] lg:left-0 lg:w-[80%]">
+                <div className="absolute top-[-30%] left-[10%] z-[-1] h-auto w-[55%] lg:top-[-45%] lg:left-0 lg:w-[80%]">
                   <Image
                     className="animated-floating-2 h-auto w-full"
                     width="420"

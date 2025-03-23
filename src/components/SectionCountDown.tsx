@@ -2,7 +2,7 @@
 
 import { FC } from 'react';
 import Image from 'next/image';
-import { dancingScript } from '@/config/fonts';
+import { dancingScript, piklabAndrade } from '@/config/fonts';
 import { motion } from 'motion/react';
 
 import Countdown from './Countdown';
@@ -12,7 +12,7 @@ const CountDown: FC = () => {
     <section className="bg-primary-50 relative py-24 lg:py-20">
       <div className="absolute top-0 left-0 h-full w-full overflow-hidden">
         <svg
-          className="absolute top-0 right-0 z-0 h-1/2 w-auto"
+          className="absolute top-0 right-0 z-0 h-1/3 w-auto lg:h-1/2"
           version="1.1"
           viewBox="0 0 512 512"
           xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +32,7 @@ const CountDown: FC = () => {
         </svg>
 
         <svg
-          className="absolute bottom-0 left-0 z-0 h-1/2 w-auto"
+          className="absolute bottom-0 left-0 z-0 h-1/3 w-auto lg:h-1/2"
           version="1.1"
           viewBox="0 0 512 512"
           xmlns="http://www.w3.org/2000/svg"
@@ -69,8 +69,8 @@ const CountDown: FC = () => {
             />
           </div>
 
-          <div className="mb-8 text-center text-5xl sm:text-6xl xl:text-7xl 2xl:text-7xl">
-            <h2 className={dancingScript.className}>Tiến Đạt &amp; Thu An</h2>
+          <div className="mb-8 text-center text-5xl leading-normal sm:text-6xl xl:text-7xl 2xl:text-7xl">
+            <h2 className={piklabAndrade.className}>Tiến Đạt &amp; Thu An</h2>
           </div>
 
           <div className="mb-10 space-y-2 text-center">
