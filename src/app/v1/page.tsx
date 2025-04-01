@@ -8,7 +8,6 @@ import SectionOurStory from '@/components/SectionOurStory';
 import SectionInvitation from '@/components/SectionInvitation';
 import SectionWeddingEvents from '@/components/SectionWeddingEvents';
 import SectionMemoryBook from '@/components/SectionMemoryBook';
-import SectionWeddingMonetaryGift from '@/components/SectionMonetary';
 import SectionThankYou from '@/components/SectionThankYou';
 import Mute from '@/components/Mute';
 
@@ -27,12 +26,11 @@ export default function Page() {
     <>
       <SectionCountDown />
       <SectionInvitation />
+      <SectionWeddingEvents />
       <SectionWhoWeAre />
       <SectionOurStory />
       <SectionAlbum />
       <SectionMemoryBook />
-      <SectionWeddingEvents />
-      <SectionWeddingMonetaryGift />
       <SectionThankYou />
       <Mute />
     </>

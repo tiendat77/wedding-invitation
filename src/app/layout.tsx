@@ -5,8 +5,8 @@ import { nunito } from '@/config/fonts';
 import '@/styles/index.scss';
 
 export const metadata: Metadata = {
-  title: 'Tiến Đạt & Thu An | Wedding',
-  description: 'Tiến Đạt & Thu An Wedding Invitation',
+  title: 'Thu An & Tiến Đạt | Wedding',
+  description: 'Thu An & Tiến Đạt Wedding Invitation',
   keywords: [],
 };
 

@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://nextjs-starter.com/sitemap.xml', // @TODO: Update URL
+    sitemap: 'https://thuantiendatwedding.vercel.app/sitemap.xml',
   };
 }
