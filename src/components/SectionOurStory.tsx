@@ -122,15 +122,15 @@ const SectionOurStory: FC = () => {
 
               <div>
                 <p className="text-center lg:text-right">
-                  Tụi mình chính thức hẹn hò vào một buổi trưa lớp 11, ngay giữa
-                  sân trường, nơi nắng lung linh lọc qua tán liễu và phượng vĩ
-                  đỏ rực một góc trời. Trước đó, qua mấy lần đi chơi chung với
-                  đám bạn, rồi vài buổi nghỉ hè chỉ có hai đứa lang thang đâu
-                  đó, lòng đã nhen lên chút gì khó tả. Hôm ấy, ngồi trên ghế đá,
-                  giữa tiếng ve kêu ran ran sau kỳ nghỉ, một đứa ngập ngừng nói
-                  &quot;Thích cậu thật đấy&quot;, đứa kia cười bẽn lẽn, thế là
-                  thành đôi. Tình yêu đến như cánh hoa phượng rơi khẽ, lặng lẽ
-                  mà vương đầy kỷ niệm.
+                  Tụi mình chính thức hẹn hò vào một buổi trưa hè trước khi vào
+                  lớp 11, ngay giữa sân trường, nơi nắng lung linh lọc qua tán
+                  liễu và phượng vĩ đỏ rực một góc trời. Trước đó, qua mấy lần
+                  đi chơi chung với đám bạn, rồi vài buổi nghỉ hè chỉ có hai đứa
+                  lang thang đâu đó, lòng đã nhen lên chút gì khó tả. Hôm ấy,
+                  ngồi trên ghế đá, giữa tiếng ve kêu ran ran sau kỳ nghỉ, một
+                  đứa ngập ngừng nói &quot;Thích cậu thật đấy&quot;, đứa kia
+                  cười bẽn lẽn, thế là thành đôi. Tình yêu đến như cánh hoa
+                  phượng rơi khẽ, lặng lẽ mà vương đầy kỷ niệm.
                 </p>
               </div>
             </motion.div>
