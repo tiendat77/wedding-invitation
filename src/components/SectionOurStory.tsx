@@ -50,7 +50,7 @@ const SectionOurStory: FC = () => {
                     className="mask mask-hexagon h-auto w-full min-w-[20rem] transition duration-300 group-hover:scale-105 lg:min-w-md"
                     width="420"
                     height="660"
-                    src="/album/1db2895f8d2909f331c2654c85f17218accc65ce6a9896314d4189cfb5576a5b.jpg"
+                    src="/album/10402686_620307731410378_2798346393322730000_n.jpeg"
                     alt=""
                   />
                 </div>
